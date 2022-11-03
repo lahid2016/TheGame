@@ -14,7 +14,7 @@ a {
 }
 
 body {
-    background-color: #003366;
+    background-color: #D1E9EA !important;
 }
 
 
@@ -58,6 +58,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .menu li a,
@@ -137,3 +138,41 @@ body {
     object-fit: contain;
     object-position: center;
 }
+
+
+/*------------Game Page------------*/
+.game{
+    padding-top: 0;
+    position:relative; 
+    display:block; 
+    width: 100%;
+    background-color:#D1E9EA;
+}
+  
+  
+.embed-responsive-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+  
+#container {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding-top: 10px;
+    background-color: transparent;
+}
+
+.game-iframe{
+    height: 685px;
+    width: 90%;
+}
+
+/*------------footer------------*/
+footer {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+
